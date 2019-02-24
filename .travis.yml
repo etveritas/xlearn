@@ -1,5 +1,8 @@
 language: cpp
 os: windows
+compiler: Visual Studio 15 Win64
+sudo: required
+install: true
 script:
   - mkdir build_win
   - cd build_win
